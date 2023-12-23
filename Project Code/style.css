@@ -1,0 +1,162 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #147f82 ;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+  background-size: cover;
+  position:relative;
+  color: #333;
+  overflow-y: hidden;
+  z-index: 2;
+}
+
+#heading {
+color: 
+#0e0e0e;
+margin-left: .1em;
+font-size: 7em;
+font-weight: bolder;
+position: fixed;
+margin-top: .2em;
+}
+
+form {
+  max-width: 800px;
+  min-width: 500px;
+  margin-left: 45em;
+  margin-top: 1em;
+  background: rgb(91, 210, 202);
+  border-radius: 16px;
+  
+  backdrop-filter: blur(2.7px);
+  -webkit-backdrop-filter: blur(2.7px);
+  border: 1px solid rgba(255, 255, 255, 0.03);
+  padding: 20px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.2);
+  position: absolute;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #767a7d;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #000;
+  background: rgba(255, 255, 255 , 1);
+}
+  #subject{
+    width: 89%;
+    padding: 10px;
+    margin-bottom:-1em;
+    border: 1px solid #767a7d;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #766f6f;
+    z-index: 22;
+    position: absolute;
+    
+    background: rgba(255,255, 255, 1);
+  }
+
+input[type="file"] {
+  margin-bottom: 12px;
+  color: #393E41;  
+}
+
+input[type="button"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #C5C3C6;
+  
+  border: none;
+  border-radius: 5px;
+  color: #393E41;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="button"]:hover {
+  color: #e6e6e6;
+  background-color:#65696d;
+}
+
+#validEmails {
+  margin-top: 1px;
+}
+#invalidEmails {
+  margin-top: 1px;
+  
+} 
+
+#validEmails p,
+#invalidEmails p {
+  font-weight: bold;
+  color: #393E41;
+}
+
+#validEmails div {
+color: #393E41;
+}
+
+#invalidEmails div {
+color: #393E41;
+}
+
+#message{
+  color:#393E41;
+}
+#senderEmail{
+  color:#393E41;
+}
+
+input[type="email"]:focus,
+textarea:focus {
+  outline: none !important;
+  border-color: #393d40;
+ 
+}
+#validEmails, #invalidEmails {
+  height: 150px;
+  overflow: auto;
+}
+
+.img1{
+height:250px; 
+margin-top: 25em;
+margin-left: 3em;
+position: fixed;
+}
+
+.img2{
+height:200px;
+margin-top:21em;
+position: fixed;
+margin-left: 13.3em;
+}
+
+h1,h2 {
+font-weight: 200;
+margin: 0.4em 0;
+z-index: 12;
+position: fixed;
+margin-top: 23em;
+margin-left:14em ;
+}
+h1 { font-size: 18px; }
+h2 {
+color: #888;
+font-size: 18px;
+}
