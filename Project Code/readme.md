@@ -15,7 +15,7 @@ Welcome to the Mass Mail Dispatcher project! This web application allows you to 
 - Beautiful user interface with animations.
 
 ## Dependencies:
-- The Mass Mail Dispatcher project relies on the following external dependencies:
+- The Mass Mail Dispatcher project relies on the following external dependency:
     EmailJS API
 
 ## Technology Stack
