@@ -2,6 +2,7 @@
 
 Welcome to the Mass Mail Dispatcher project! This web application allows you to send multiple emails with ease by uploading a CSV file and specifying the email details.
 
+## Demo Video
 
 https://github.com/Arya0212/Mass-Mail-Dispatcher/assets/131968761/cf87e283-a23d-4d56-8cc3-c3a0eb0753b2
 
